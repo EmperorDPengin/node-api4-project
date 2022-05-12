@@ -1,0 +1,36 @@
+{
+  "name": "api4-project",
+  "version": "1.0.0",
+  "description": "In this challenge, you will build a simple Express app and deploy it to Heroku.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmperorDPengin/node-api4-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmperorDPengin/node-api4-project/issues"
+  },
+  "homepage": "https://github.com/EmperorDPengin/node-api4-project#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.0.2",
+    "moment": "^2.29.3",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.3.4",
+    "yup": "^0.32.11"
+  }
+}
